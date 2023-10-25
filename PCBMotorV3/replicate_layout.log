@@ -1,0 +1,62 @@
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:Plugin executed on: 'win32'
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Plugin executed with python version: '3.9.14 (main, Sep 19 2022, 05:11:57) [MSC v.1932 64 bit (AMD64)]'
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 361:KiCad build version: (6.0.8)
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 362:Plugin version: 1.3.5
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 363:Frame repr: <wx._core.Frame object at 0x0000023B1F745E50>
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 387:Preparing replicator with R10 as a reference
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 113:getting a list of all footprints on board
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 435:source anchor footprint is 'R10'
+Located on: ['PowerStage', 'U']
+With filenames: ['F:\\Meine Ablage\\Sciencedays\\2023\\PCBMotorV2\\powerStage.kicad_sch', 'F:\\Meine Ablage\\Sciencedays\\2023\\PCBMotorV2\\halfBridge.kicad_sch']
+With sheet_id:['PowerStage', 'U']
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 442:Corresponding footprints are 
+[('R10', ['PowerStage', 'U']), ('R12', ['PowerStage', 'V']), ('R14', ['PowerStage', 'W'])]
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 454:Showing dialog
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 391:constructing a list of sheets suitable for replication on level:'U', file:'F:\\Meine Ablage\\Sciencedays\\2023\\PCBMotorV2\\halfBridge.kicad_sch'
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 428:suitable sheets are:[['PowerStage', 'V'], ['PowerStage', 'W']]
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1356:Level selected: ['PowerStage', 'U']
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1191:Filtering list of tracks
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 460:Toolbar position: wx.Point(7623, 121)
+07-29 21:42:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 465:Dialog position: wx.Point(7259, 121)
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 391:constructing a list of sheets suitable for replication on level:'U', file:'F:\\Meine Ablage\\Sciencedays\\2023\\PCBMotorV2\\halfBridge.kicad_sch'
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 428:suitable sheets are:[['PowerStage', 'V'], ['PowerStage', 'W']]
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 207:Replicating layout
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 237:Starting replication of sheets: [['PowerStage', 'V'], ['PowerStage', 'W']]
+on level: ['PowerStage', 'U']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+07-29 21:42:28 root 299:updating GUI message: 'Preparing for replication'
+07-29 21:42:28 root 304:updating GUI with: 0
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 307:Getting the list of source footprints
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 317:Getting the list of all the remaining footprints
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 324:Getting source tracks
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1191:Filtering list of tracks
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 328:Getting source zones
+07-29 21:42:28 root 304:updating GUI with: 50
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 332:Getting source text items
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 336:Getting source drawing items
+07-29 21:42:28 root 299:updating GUI message: 'Replicating footprints'
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 742:Replicating footprints
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 748:Replicating footprints on sheet ['PowerStage', 'V']
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 748:Replicating footprints on sheet ['PowerStage', 'W']
+07-29 21:42:28 root 299:updating GUI message: 'Replicating tracks'
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 907:Replicating tracks
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 913:Replicating tracks on sheet ['PowerStage', 'V']
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 737:Net pairs for sheet ['PowerStage', 'V'] :[('/PowerStage/Hall_U', '/PowerStage/Hall_V'), ('/coils', '/coils'), ('/PowerStage/U_H', '/PowerStage/V_H'), ('VCC', 'VCC'), ('Net-(Q1-Pad3)', 'Net-(Q4-Pad3)'), ('GND', 'GND'), ('+3.3V', '+3.3V'), ('/PowerStage/U_L', '/PowerStage/V_L')]
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 913:Replicating tracks on sheet ['PowerStage', 'W']
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 737:Net pairs for sheet ['PowerStage', 'W'] :[('/PowerStage/U_H', '/PowerStage/W_H'), ('/PowerStage/Hall_U', '/PowerStage/Hall_W'), ('/coils', '/coils'), ('VCC', 'VCC'), ('/PowerStage/U_L', '/PowerStage/W_L'), ('GND', 'GND'), ('Net-(Q1-Pad3)', 'Net-(Q7-Pad3)'), ('+3.3V', '+3.3V')]
+07-29 21:42:28 root 299:updating GUI message: 'Replicating zones'
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 967:Replicating zones
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 974:Replicating zones on sheet ['PowerStage', 'V']
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 737:Net pairs for sheet ['PowerStage', 'V'] :[('/PowerStage/Hall_U', '/PowerStage/Hall_V'), ('/coils', '/coils'), ('/PowerStage/U_H', '/PowerStage/V_H'), ('VCC', 'VCC'), ('Net-(Q1-Pad3)', 'Net-(Q4-Pad3)'), ('GND', 'GND'), ('+3.3V', '+3.3V'), ('/PowerStage/U_L', '/PowerStage/V_L')]
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 974:Replicating zones on sheet ['PowerStage', 'W']
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 737:Net pairs for sheet ['PowerStage', 'W'] :[('/PowerStage/U_H', '/PowerStage/W_H'), ('/PowerStage/Hall_U', '/PowerStage/Hall_W'), ('/coils', '/coils'), ('VCC', 'VCC'), ('/PowerStage/U_L', '/PowerStage/W_L'), ('GND', 'GND'), ('Net-(Q1-Pad3)', 'Net-(Q7-Pad3)'), ('+3.3V', '+3.3V')]
+07-29 21:42:28 root 299:updating GUI message: 'Replicating text'
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating text
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating text on sheet ['PowerStage', 'V']
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating text on sheet ['PowerStage', 'W']
+07-29 21:42:28 root 299:updating GUI message: 'Replicating drawings'
+07-29 21:42:28 root 304:updating GUI with: 0
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1088:Replicating drawings
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1094:Replicating drawings on sheet ['PowerStage', 'V']
+07-29 21:42:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1094:Replicating drawings on sheet ['PowerStage', 'W']
+07-29 21:42:29 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 223:Replication complete
